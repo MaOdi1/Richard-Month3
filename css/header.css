@@ -35,7 +35,7 @@ header {
   display: flex;
   flex-direction: column;
 }
-.header__arrow-link {
+.header__arrow {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -47,12 +47,11 @@ header {
 }
 .banner__desc-title {
   font-family: var(--GR);
-font-size: 80px;
-font-weight: 400;
-line-height: 80px;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
   margin-bottom: 10px;
   color: var(--wh);
-
 }
 .banner__desc-p {
   font-family: var(--GR);
@@ -62,7 +61,6 @@ line-height: 80px;
   margin-bottom: 25px;
   color: var(--wh);
   width: 677px;
-
 }
 .banner__desc-link {
   font-family: var(--GR);
@@ -71,11 +69,11 @@ line-height: 80px;
   line-height: 26px;
   padding: 20px 40px;
   color: var(--wh);
-  background: #FC0A7E;
+  background: #fc0a7e;
   border-radius: 3px;
   transition: 0.4s;
 }
 .banner__desc-link:hover {
-  color: #FC0A7E;
+  color: #fc0a7e;
   background: var(--wh);
 }
