@@ -20,6 +20,9 @@
   .nullam-img {
     width: 800px;
   }
+  .food__info-img {
+    width: 300px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .banner__desc-p {
@@ -27,6 +30,38 @@
   }
   .banner__img {
     width: 400px;
+  }
+  .food__info-img {
+    width: 200px;
+  }
+  .food__info {
+    gap: 100px;
+  }
+  .food__info-desc-title {
+    font-size: 30px;
+  }
+  .food__info-desc-p {
+    font-size: 11px;
+  }
+  .food__info-desc {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .food__info-desc-title {
+    font-size: 26px;
+  }
+  .food__info-desc-p {
+    font-size: 9px;
+  }
+  .food__info-img {
+    width: 150px;
+  }
+  .food__info {
+    gap: 1px;
+  }
+  .apects__wrap {
+    gap: 30px;
   }
 }
 @media screen and (max-width: 700px) {
