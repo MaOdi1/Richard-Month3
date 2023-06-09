@@ -1,0 +1,70 @@
+.footer {
+  background: var(--bg);
+}
+.footer__email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 130px 0 125px;
+}
+.email__title {
+  font-family: var(--GR);
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 48px;
+  color: var(--wh);
+  margin-bottom: 20px;
+}
+.email__p {
+  font-family: var(--GR);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #6b6b6b;
+  margin-bottom: 40px;
+}
+.email__form {
+  display: flex;
+}
+.email__form-input {
+  border: none;
+  outline: none;
+  padding: 22px 138px 22px 20px;
+  font-family: var(--GR);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #1c1c1c;
+  border-radius: 3px 0px 0px 3px;
+  box-shadow: 0px 0px 0px 0px #fc0a7e;
+}
+.email__form-btn {
+  border: none;
+  outline: none;
+  padding: 22px 40px;
+  border-radius: 0px 3px 3px 0px;
+  font-family: var(--GR);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #1c1c1c;
+  background: #fc0a7e;
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0 70px;
+}
+.fnav__list {
+  display: flex;
+  gap: 30px;
+}
+.fnav__list-item a {
+  font-family: var(--GR);
+font-size: 11px;
+font-weight: 400;
+line-height: 20px;
+color: #6b6b6b;
+}
