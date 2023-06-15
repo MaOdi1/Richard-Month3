@@ -270,7 +270,14 @@
     linear-gradient(0deg, #fc0a7e, #fc0a7e) ;
   position: relative;
 }
+.download__waves {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
 .download__wrap {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
